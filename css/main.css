@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 66.37px;
+  color: #ffffff;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: calc(100% - 60px);
+  max-width: 1120px;
+}
+
+.header {
+  overflow: hidden;
+}
+.header__logo-img {
+  width: 40px;
+  margin-top: 32px;
+}
+.header__logo-img img {
+  width: 100%;
+}
+.header__logo-text {
+  margin-left: 30px;
+  width: 150px;
+}
+.header__logo-text img {
+  width: 100%;
+}
+.header__info {
+  float: right;
+}
+.header__info a {
+  font-size: 13px;
+  display: block;
+  float: left;
+}
+.header__info ul {
+  list-style: none;
+}
+.header__info li {
+  float: left;
+  margin-right: 42px;
+  display: block;
+}
+.header__info li:last-of-type {
+  margin-right: 0;
+}
+.header__info li:last-child {
+  margin-left: 0;
+}
+.header__info li img {
+  float: left;
+  margin-top: 23px;
+}
+.header__info li span {
+  font-size: 13px;
+  display: block;
+  float: left;
+  margin: 22px 0 0 15px;
+}
+.header__nav {
+  float: right;
+}
+.header__nav a {
+  color: #222222;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.header__nav ul {
+  list-style: none;
+}
+.header__nav li {
+  float: left;
+  margin-left: 68px;
+  letter-spacing: 10%;
+}
+.header__nav li:last-of-type {
+  margin-right: 0;
+}
+
+/*# sourceMappingURL=main.css.map */

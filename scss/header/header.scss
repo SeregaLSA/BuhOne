@@ -1,0 +1,77 @@
+.header {
+    overflow: hidden;
+
+    &__logo-img {
+        width: 40px;
+        margin-top: 32px;
+        img {
+            width: 100%;
+        }
+    }
+    &__logo-text {
+        margin-left:30px;
+        width: 150px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &__info {
+        float: right;
+        a {
+            font-size: 13px;
+            display: block;
+            float: left;
+        }
+        ul {
+            list-style: none;
+        }
+
+        li {
+            float: left;
+            margin-right: 42px;
+            display: block;
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+            &:last-child {
+                margin-left: 0;
+            }
+            img {
+                float: left;
+                margin-top: 23px;
+            }
+          span {
+                font-size: 13px;
+                display: block;
+                float: left;
+                margin: 22px 0 0 15px;
+            }
+        }
+    }
+
+    &__nav {
+        float: right;
+        a {
+            color: $color-222222;
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;           
+        }
+        ul {
+            list-style: none;
+        }
+
+        li {
+            float: left;
+            margin-left:68px;   
+            letter-spacing: 10%;  
+            
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+    }
+}
