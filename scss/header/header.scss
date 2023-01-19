@@ -140,6 +140,13 @@
         &__nav {
             float: none;
             margin: 22px auto;
+            width: max-content;
+
+            li {
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
         }
 
     }

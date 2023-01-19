@@ -145,6 +145,10 @@ h1 {
   .header__nav {
     float: none;
     margin: 22px auto;
+    width: max-content;
+  }
+  .header__nav li:first-child {
+    margin-left: 0;
   }
 }
 
