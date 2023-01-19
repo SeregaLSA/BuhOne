@@ -132,5 +132,15 @@
             display: inline;
         }
 
+        &__info {
+            float: none;
+            margin: 0 auto;
+            display: table;
+        }
+        &__nav {
+            float: none;
+            margin: 22px auto;
+        }
+
     }
 }

@@ -137,6 +137,15 @@ h1 {
     float: none;
     display: inline;
   }
+  .header__info {
+    float: none;
+    margin: 0 auto;
+    display: table;
+  }
+  .header__nav {
+    float: none;
+    margin: 22px auto;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
