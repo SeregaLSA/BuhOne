@@ -151,5 +151,22 @@ h1 {
     margin-left: 0;
   }
 }
+@media (max-width: 650px) {
+  .header__info {
+    float: none;
+    margin: 0 auto;
+  }
+  .header__info li {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+  }
+  .header__nav li {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

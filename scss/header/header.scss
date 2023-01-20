@@ -150,4 +150,26 @@
         }
 
     }
+
+    @media (max-width: 650px) {
+        &__info {
+            float: none;
+            margin: 0 auto;
+            
+            li {
+                float: none;
+                margin: 0 auto;
+                text-align: center;
+                font-size: 16px;
+            }
+        }
+        &__nav {
+
+            li {
+                float: none;
+                margin: 0 auto;
+                text-align: center;
+            }
+        }
+    }
 }
