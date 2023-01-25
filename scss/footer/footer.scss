@@ -6,6 +6,9 @@
 
     .wrapper {
         display: flex;
-
+        color: $color-black;
+        font-size: 14px;
+        line-height: 138%;
+        justify-content: space-between;
     }
 }
