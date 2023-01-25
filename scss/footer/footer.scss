@@ -1,13 +1,11 @@
-.header {   
+.footer {
     flex: 0 0 auto;
-    padding: 33px 0 37px 0;
-    background-attachment: fixed;
     background-color: $color-fon;
+    padding: 50px 0 40px 0;
+    background-attachment: fixed;
 
     .wrapper {
         display: flex;
+
     }
-
-   
 }
-
