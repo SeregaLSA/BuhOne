@@ -40,7 +40,6 @@ h1 {
 
 .header {
   flex: 0 0 auto;
-  height: 110px;
   background-attachment: fixed;
   background-color: #E5E5E5;
 }
@@ -48,6 +47,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  column-gap: 30px;
 }
 .header .wrapper .logotype {
   display: flex;
@@ -57,16 +57,12 @@ h1 {
   column-gap: 30px;
 }
 .header .wrapper .logotype__img {
-  margin: 33px 0 0 0;
-}
-.header .wrapper .logotype__text {
-  margin-top: 33px;
+  margin: 33px 0 37px 0;
 }
 .header .wrapper .navigation {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 22px;
 }
 .header .wrapper .navigation .info {
   display: flex;
@@ -101,9 +97,11 @@ h1 {
 .header .wrapper .navigation .menu ul {
   list-style: none;
   display: flex;
-  row-gap: 20px;
   gap: 68px;
   margin-top: 22px;
+}
+.header .wrapper .navigation .menu ul li {
+  flex-wrap: wrap;
 }
 
 .footer {
