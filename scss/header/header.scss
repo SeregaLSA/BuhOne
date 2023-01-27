@@ -1,84 +1,55 @@
 .header {   
-    flex: 0 0 auto;
-    
+    flex: 0 0 auto;    
     background-attachment: fixed;
     background-color: $color-fon;
 
     .wrapper {
         display: flex;
+        flex-flow: row nowrap;
         justify-content: space-between;
-        align-items: center;
-        column-gap: 30px;
-
-        .logotype {
-            display: flex;
-            
-            
-            a {
-                display: flex;
-                column-gap: 30px;
-            }
-
-            &__img {
-                margin: 33px 0 37px 0;
-            }
-
-        }
-        .navigation {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-
-            .info {
-                display: flex;
-                height: 17.5px;
-                align-items: flex-start;
-                color: $color-black;
-                font-size: 13px;
-                line-height: 132%;
-                
-                
-                ul {
-                    list-style: none;
-                    display: flex;
-                    gap: 40px;
-            
-                    a, p {
-                        display: flex;
-                    }
-                    li {
-                        align-items: center;
-                    }
-                    span {
-                        margin-left: 15px;
-                    }
-                }
-            
-            }
-            .menu {
-                display: flex;
-                flex-direction: row-reverse;
-                text-transform: uppercase;
-                font-size: 14px;
-                font-weight: 700;
-                color: $color-222222;
-
-                ul {
-                    list-style: none;
-                    display: flex;
-                    gap: 68px;
-                    margin-top: 22px;
-
-                    li {
-                        flex-wrap: wrap;
-                    }
-                }
-                
-            }
-        }
-        
     }
 
-   
-}
+    &__logotype {
+        display: flex;
+        width: 220px;
+        height: 43px;
+        column-gap: 30px;
 
+            img {
+                width: 100%;
+            }
+        }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+
+        .info {
+            display: flex;
+            justify-content: end;
+
+            ul {
+                display: flex;
+                column-gap: 40px;
+
+                img, a, span {
+                    display: inline-flex;
+                }
+                li {
+                    align-content: center;
+                }
+            }
+        }
+
+        .nav {
+            display: flex;
+            justify-content: end;
+
+            ul {
+                display: flex;
+                column-gap: 68px;
+            }
+        }
+    }
+    
+}
