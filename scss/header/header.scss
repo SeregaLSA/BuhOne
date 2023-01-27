@@ -78,7 +78,21 @@
         }
         
     }
+}
+
+.header {
+    @media (max-width: 900px) {
+        .info {
+                
+            ul {
+                gap: 20px;
+            }        
+                
+            
+       }
+    }
+}
 
    
-}
+
 
